@@ -28,5 +28,7 @@
 cd $PSScriptRoot
 $files =(Get-ChildItem)
 
-$folderPath = "PSScriptRoot/outfolder/"
-$filePath = 
+$folderPath = "$PSScriptRoot/outfolder/"
+$filePath = Join-Path -Path $folderPath "out.csv"
+
+$files | Where-Object { Write-Host $files -eq "ps1" } | Export-Csv -Path $filePath
