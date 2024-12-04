@@ -1,0 +1,8 @@
+To: edmond.slobodow@mymail.champlain.edu
+Subject: Logins
+Dec 3 20-33-06 uid=1000
+Dec 3 20-33-09 uid=1000
+Dec 3 22-57-12 uid=1000
+Dec 3 22-57-43 uid=1000
+Dec 3 22-57-53 uid=1000
+Dec 4 01-47-54 uid=1000
