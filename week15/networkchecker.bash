@@ -76,15 +76,14 @@ while getopts "n:s:" opt; do
 done
 if [[ "$nArgument" == "external" ]]; then
 	ExternalNmap
-fi
-if [[ "$nArgument" == "internal" ]]; then
+elif [[ "$nArgument" == "internal" ]]; then
         InternalNmap
-fi
-if [[ "$sArgument" == "external" ]]; then
+elif [[ "$sArgument" == "external" ]]; then
         ExternalListeningPorts
-fi
-if [[ "$sArgument" == "internal" ]]; then
+elif [[ "$sArgument" == "internal" ]]; then
         InternalListeningPorts
+else
+	HelpMenu
 fi
 
 
